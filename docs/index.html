@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Side navigation -->
+<div class="sidenav">
+  <div class="circle">
+    <a href="index.html">
+    <img src="earth1.JPG">
+  </a>
+  </div>
+  <h3 style="font-size: large;"> Search <br>The Skies Here</h3>
+  <form>
+    <input type="number" id="zipCode" name="zipCode" placeholder="Enter zip code" required>
+    <button type="submit" id="submit"><i class="fa fa-search"></i></button>
+  </form>
+
+
+  
+</div>
+
+
+<div class="main">
+  <header></header>
+  <div class="col-sm-4 col-lg-12 col-md-8 home-content text-center">
+    <div class="mtext">
+        <h1 id = "locationName">Wherever you go,</h1>
+        <hr>
+        <h2 id = "Current"> no matter what the weather, </h2>
+        <p id = "date"></p>
+
+        <h2 id = "Ctemp">always bring your own sunshine.</h2>
+        <h4 id = "lo"> </h4>
+        <h4 id = "hi"> </h4>
+        <hr>
+        <footer>
+          <div id="contact-me" class="footer">
+              <div class="copyright">
+                  <p>© 2023 Alexander Forward Made This Thing</p>
+              </div>
+          </div>
+          
+      </footer>
+    </div>
+
+
+
+
+
+
+<script src="weatherApp.js"></script>
+</body>
+</html>

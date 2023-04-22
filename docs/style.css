@@ -1,0 +1,120 @@
+.sidenav {
+    align-items: center;
+      height: 100%; 
+      width: 250px; 
+      position: fixed; 
+      z-index: 1; 
+      top: 0; 
+      left: 0;
+      background: rgb(205,255,216);
+      background: linear-gradient(90deg, rgb(205, 206, 255) 0%, rgba(148,185,255,1) 100%);
+      overflow-x: hidden; 
+    }
+    
+  .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  
+  .circle img{
+    width: 125px;
+    height: 125px;
+    border: 2px solid white;
+    border-radius: 50%;
+    border-color: whitesmoke;
+    margin-bottom: 16px;
+    margin-top: auto ;
+  }
+  
+  .sidenav p, .sidenav h3{
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .sidenav ul {
+    list-style: none;
+    margin-right: 30px;
+  
+  }
+    .sidenav a {
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      display: block;
+      text-align: center;
+      align-items: center;
+     
+    }
+    
+  
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+  .main {
+    color: white;
+    text-align: center;
+    background-image: url('weatherback.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: scaleX(-1);
+    height: 100vh;
+  }
+    
+    .mtext{
+      color: White;
+      text-align: center;
+      transform: scaleX(-1);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      margin-left: 350px;
+      padding-top: 50px;
+      font-weight: bolder;
+      margin-left: 250px; 
+      padding-left: 500px; 
+  
+    }
+  
+    .mtext h1{
+      font-size: 75px;
+      padding-top: 100px;
+    }
+
+    .footer{
+        padding-top: 150px;
+    }
+  
+    .background img {
+  
+      height: 100vh;
+      width: 100vw;
+      transform: scaleX(-1);
+    }
+    
+    .about{
+      margin-left: 350px;
+      margin-right: 150px;  
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  
+    .atext{
+      margin-left: 25px;
+    }
+  
+    .about img {
+      width: 80%;
+      height: auto;
+      border: 5px solid black;
+      border-top-color: white;
+      border-bottom-color: white;
+      border-radius: 10%;
+    }
+  
+    
+  
